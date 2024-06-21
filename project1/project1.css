@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(51, 167, 181);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.625;
+}
+
+.main-body {
+    display: flex;
+}
+
+* {
+    margin: 0;
+}
+
+.body2, .body1 {
+    margin-top: 108px;
+    width: 40%;
+}
+
+.body2 {
+    margin-left: 60px;
+}
+
+.body1 {
+    margin-left: 90px;
+}
+
+.fm {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.form_p {
+    padding-left: 80px;
+    font-size: 19px;
+    line-height: 1.24;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.625;
+    padding-bottom: 10px;
+}
+
+h4 {
+    padding-bottom: 8px;
+    line-height: 1.12;
+}
+
+img {
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+.colspan {
+    width: 30.8vw;
+}
+
+button, .body-button {
+    background-color: #eae325;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 22px;
+}
+
+.body-button {
+    padding: 0.2rem 0.5rem;
+    width: 25%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.aa {
+    width: 15vw;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
