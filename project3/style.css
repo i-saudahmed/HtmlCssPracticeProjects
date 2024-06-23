@@ -12,7 +12,7 @@ body {
 
 .header {
     text-align: center;
-    margin: 1rem 0px;
+    margin: 1rem 0;
     padding: 2rem;
 }
 
@@ -24,11 +24,11 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     max-width: 78rem;
-    margin: 0px auto;
+    margin: 0 auto;
     background-color: white;
     color: black;
     align-items: center;
-    padding: 0px 0px 0px 1rem;
+    padding-left: 1rem;
 }
 
 .tribute blockquote {
@@ -43,20 +43,20 @@ body {
 .bio {
     max-width: 40rem;
     margin: 2rem auto;
-    padding: 0px 0.5rem;
+    padding: 0 0.5rem;
 }
 
-.bio h2{
+.bio h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
-.bio p{
+.bio p {
     font-size: 1.2em;
     line-height: 1.4;
 }
 
-.bio hr{
+.bio hr {
     margin-top: 2rem;
 }
