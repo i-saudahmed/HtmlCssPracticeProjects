@@ -1,0 +1,142 @@
+body {
+    background-color: #F2F2F2;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border: 2px solid #2E2E2E;
+    width: 400px;
+    margin: 0px auto;
+    padding: 5px;
+    box-shadow: 0px 0px 15px #434F5B;
+}
+
+header h1 {
+    color: #212A3F;
+    font-size: 45px;
+}
+
+header p {
+    color: #212A3F;
+}
+
+.topnav {
+    font-family: 'Dancing Script', cursive;
+    background-color: #434F5B;
+    width: 415px;
+    font-size: 30px;
+    text-transform: lowercase;
+    margin: 20px auto;
+}
+
+.topnav ul {
+    text-align: center;
+    margin: 0PX;
+    padding: 20PX 15PX;
+}
+
+.topnav ul li {
+    display: inline;
+}
+
+.topnav ul li a {
+    color: #F2F2F2;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+#topnav ul li a:hover {
+    border-bottom: 3px solid #F2F2F2;
+    transition: 50ms linear 0s;
+    -moz-transition: 50ms linear 0s;
+    -webkit-transition: 50ms linear 0s;
+}
+
+
+.content h1,
+h2 {
+    color: #212A3F;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content {
+    font-family: 'Lora', serif;
+
+}
+
+.content p {
+    color: #2E2E2E;
+    text-align: left;
+    margin: 0PX auto;
+    width: 415PX;
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0px auto; */
+}
+
+.content ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content ul li {
+    color: #2E2E2E;
+}
+
+#pic1 {
+    padding-bottom: 5px;
+}
+
+#pic2 {
+    padding-bottom: 5px;
+}
+
+footer {
+    border-top: 10px solid #434F5B;
+    width: 415px;
+    margin: 0px auto;
+}
+
+.footernav {
+    padding-top: 5px;
+    padding-left: 0px;
+    float: left;
+}
+
+.footernav ul li {
+    display: inline;
+}
+
+.footernav ul {
+    margin: 0px;
+    padding: 0px;
+}
+footer p {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    font-family: 'Lora', serif;
+
+}
+
+.footernav ul li a {
+    color: #212A3F;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footernav ul li a:hover {
+    color: #8F8F8F;
+}
