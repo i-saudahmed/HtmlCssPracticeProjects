@@ -24,16 +24,16 @@ header p {
 .topnav {
     font-family: 'Dancing Script', cursive;
     background-color: #434F5B;
+    text-transform: lowercase;
     width: 415px;
     font-size: 30px;
     margin: 20px auto;
-    text-transform: lowercase;
 }
 
 .topnav ul {
     text-align: center;
-    margin: 0PX;
     padding: 20PX 15PX;
+    margin: 0PX;
 }
 
 .topnav ul li {
