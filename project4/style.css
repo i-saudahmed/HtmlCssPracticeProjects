@@ -26,8 +26,8 @@ header p {
     background-color: #434F5B;
     width: 415px;
     font-size: 30px;
-    text-transform: lowercase;
     margin: 20px auto;
+    text-transform: lowercase;
 }
 
 .topnav ul {
