@@ -99,9 +99,9 @@ h2 {
 }
 
 footer {
-    border-top: 10px solid #434F5B;
-    width: 415px;
     margin: 0px auto;
+    width: 415px;
+    border-top: 10px solid #434F5B;
 }
 
 .footernav {
@@ -118,13 +118,14 @@ footer {
     margin: 0px;
     padding: 0px;
 }
+
 footer p {
+    margin: 0px;
     float: right;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 0px;
     padding-left: 0px;
-    margin: 0px;
     font-family: 'Lora', serif;
 
 }
