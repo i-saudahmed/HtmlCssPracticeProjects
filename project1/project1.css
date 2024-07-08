@@ -10,7 +10,7 @@ body {
 .main-body {
     display: flex;
 }
-
+ 
 * {
     margin: 0;
 }
