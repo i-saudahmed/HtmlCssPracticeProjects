@@ -4,19 +4,19 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #eee;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     height: auto;
 }
 
-h1{
+h1 {
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.landing{
+.landing {
     background-color: white;
 
 }
@@ -28,15 +28,16 @@ main {
     box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
 }
 
-.landing-text{
+.landing-text {
     height: 50vh;
     display: flex;
     text-align: center;
-    padding: 0rem 0rem 0rem ; 
+    padding: 0rem 0rem 0rem;
     align-items: center;
     flex: 0 1 40vw;
 }
-.landing-image{
+
+.landing-image {
     background: url(https://images.unsplash.com/photo-1670786445380-2b1ab02a77c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,12 +46,12 @@ main {
     flex: 0 1 60vw;
 }
 
-.btn{
+.btn {
     color: #333;
     text-decoration: none;
     border-radius: 50px;
     border: 1px solid #ccc;
-    margin: 2rem 0 0 ;
+    margin: 2rem 0 0;
     padding: 1rem 2.2rem;
     transition: background 500ms ease;
 }
@@ -59,20 +60,22 @@ main {
     color: #888;
 }
 
-@media(min-width: 31.25rem){
-    .landing{
+@media(min-width: 31.25rem) {
+    .landing {
         display: flex;
         height: 100%;
     }
-    .landing-image{
+
+    .landing-image {
         height: 100vh;
     }
-    .landing-text{
+
+    .landing-text {
         height: 100vh;
     }
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,17 +84,17 @@ main {
     background: #333;
     color: white;
     height: 3rem;
-    text-align: center;   
+    text-align: center;
 }
 
-.header > h2{
+.header>h2 {
     border-left: 1px dotted #fff;
     border-right: 1px dotted #fff;
     padding: 0.6rem;
     /* display: inline-block; */
 }
 
-img{
+img {
     display: block;
     width: 100%;
     height: 50vh;
@@ -103,23 +106,26 @@ img{
     }
 }
 
-.caption{
+.caption {
     text-align: center;
 }
 
-footer{
+footer {
     margin-top: 4rem;
     text-align: center;
     margin-bottom: 3rem;
 }
-footer > h2{
+
+footer>h2 {
     font-size: 3rem;
     margin-bottom: 0;
 }
-a{
+
+a {
     color: red;
     text-decoration: none;
 }
-.tt{
+
+.tt {
     padding-bottom: 2rem;
 }
