@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container{
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+    border: 1px solid;
+}
+
+.main-heading{
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0rem 1rem;
+}
+
+.form-class {
+    margin: 2rem 0px;
+  }
+
+  .form-control{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading-field {
+    margin: 1rem 0px 0.6rem;
+  }
+
+  .field-inputs{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+}
+
+.form-control-input{
+    font-size: 1rem;
+    padding: 0.3rem 0px;
+    border: none;
+    border-radius: 7px;
+}
+.first-name-help{
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+}
+
+.c-gap{
+    line-height: 1.5;
+}
+
+.form-control-b{
+    margin-top: 0.6rem;
+}
+
+.field-inputs-b{
+    margin-top: 1rem;
+}
+
+.form-control{
+    margin-top: 1.6rem;
+}
+
+.heading-feld{
+    margin-bottom: 0.8rem;
+}
+
+.filed-head{
+    font-size: 2rem;
+}
+
+.radio-type-1{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.3rem;
+}
+button{
+    transition-property: width;
+    background-color: rgb(0, 168, 126);
+    color: white;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.4rem;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid ;
+    border-radius: 12px;
+    border-style: none;
+    box-shadow: 1px #0000;
+  box-shadow: rgba(152, 152, 165, 0.2) 0px 7px 29px ;
+  cursor: pointer;
+    /* text-decoration: none; */
+}
+button:hover{
+    background-color: red;
+    transition-delay: 0.3s;
+    width: 150px;
+}
