@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    /* color: black; */
+}
+
+nav{
+    background-color: rgb(0, 0, 8);
+    color:  white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.leftHome{
+    width: 500px;
+}
+
+.leftHome h3{
+    color: red;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.leftHome h2{
+    font-size: 2.5rem;
+    color: rgb(26, 25, 25);
+    margin-bottom: 1rem;
+
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(204, 28, 28);
+    padding: 0.7rem 1.4rem;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: .2rem;
+    font-weight: 900;
+    
+}
+
+
+.desc{
+    margin-bottom: 1rem;
+    color: rgb(106, 102, 102);
+}
+
+.rightHome{
+    width: 50%;
+    margin: 1rem;
+    position: relative;
+}
+
+@media screen and (max-width:810px) {
+    #home {
+        flex-direction: column-reverse;
+    }
+
+    .rightHome {
+        width: 90%;
+    }
+
+    .leftHome {
+        margin: 0;
+        width: 100%;
+    }
+
+    .leftHome h3 {
+        font-size: 1rem;
+    }
+
+    .leftHome h2 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
