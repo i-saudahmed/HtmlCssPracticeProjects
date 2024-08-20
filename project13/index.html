@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="item-container">
+        <div class="item-top">
+            <div class="top-left-logo">
+                <img src="data:image/png;base64,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"
+                    alt="">
+            </div>
+            <div class="top-right-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+        </div>
+        <div class="main-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGtXxyHvr8oBziIB3U5jvokJzkEJgA0K3VFg&s"
+                alt="">
+        </div>
+        <h2 class="item-heading"> XRay Jr Dark</h2>
+        <p class="item-description">Lorem ipsum dolor sit amet alright &  consectetur adipisicing elit. Dele vero
+            necessitatibus </p>
+        <ul class="rating"> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+        </ul>
+        <p class="item-price"><sup>$</sup>5.00/-</p>
+        <button class="item-cart-btn">Add To Cart</button>
+</body>
+
+</html>
