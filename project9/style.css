@@ -1,157 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: #8fd5d5;
-    /* color: white; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #8fd5d5;
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    border-radius: .5rem;
-    padding: 1rem 3rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
 }
 
 .container h2 {
-    font-size: 1.5rem;
-    margin: 1rem;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
 
 .container form input {
-    font-weight: lighter;
-    border: none;
+  font-weight: lighter;
+  border: none;
 }
 
 .container form .username {
-    margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .container form i {
-    font-size: 1rem;
-    margin-right: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
 }
 
 .container form input {
-    font-size: 1rem;
-    opacity: .7;
+  font-size: 1rem;
+  opacity: 0.7;
 }
 
 .userArea {
-    margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .username {
-    margin-top: .7rem;
-    float: left;
+  margin-top: 0.7rem;
+  float: left;
 }
 
 .container form .forgotpassword {
-    cursor: pointer;
-    color: rgb(113, 119, 124);
-    font-size: .8rem;
-
+  cursor: pointer;
+  color: rgb(113, 119, 124);
+  font-size: 0.8rem;
 }
 
 .forgotpassword {
-    float: right;
-    margin-top: 0.5rem;
-    margin-bottom: 0.2rem;
+  float: right;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .btn {
-    border: none;
-    background: linear-gradient(to right, #8d68c5, #e34494);
-    padding: 0.6rem 7rem;
-    /* margin: 0.5rem 0.2rem; */
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
+  border: none;
+  background: linear-gradient(to right, #8d68c5, #e34494);
+  padding: 0.6rem 7rem;
+  /* margin: 0.5rem 0.2rem; */
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .formBottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.formBottom p{
-    margin-bottom: .5rem;
-    font-size: .8rem;
+.formBottom p {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .formBottom ul {
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: row;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .flexUl a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .flexUl li {
-    list-style: none;
+  list-style: none;
 }
 
-.formBottom #signUp1{
-    font-weight: 900;
-    font-size: 01rem;
-    cursor: pointer;
-
+.formBottom #signUp1 {
+  font-weight: 900;
+  font-size: 01rem;
+  cursor: pointer;
 }
-.formBottom .signUp{
-    font-weight: 400;
-    /* cursor: pointer; */
 
-    /* font-size: 01rem; */
+.formBottom .signUp {
+  font-weight: 400;
+  /* cursor: pointer; */
+
+  /* font-size: 01rem; */
 }
 
 .flexUl li i {
-    height: 20px;
-    width: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .fa-google {
-    background-color: rgb(231, 23, 23);
+  background-color: rgb(231, 23, 23);
 }
 
 .fa-twitter {
-    background-color: rgb(43, 71, 228);
+  background-color: rgb(43, 71, 228);
 }
 
 .fa-facebook {
-    background-color: darkblue;
+  background-color: darkblue;
 }
 
 .fa-brands {
-    margin-top: 1rem;
-    cursor: pointer;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 50%;
-    transition: scale 0.3s;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: scale 0.3s;
 }
 
 #signUp1:hover {
-    color: #8d68c5;
+  color: #8d68c5;
 }
