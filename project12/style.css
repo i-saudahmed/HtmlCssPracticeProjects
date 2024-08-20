@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2d7953;
+    font-family: 'Poppins', sans-serif;
+}
+
+.price-heading{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction:column; */
+    flex-wrap: wrap;
+    /* align-items: center;
+    align-items: center;
+    height: 80vh;
+    width: 60%; */
+    margin: 1rem;
+}
+
+.pricing-item{
+    background-color: white;
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    flex-direction: column;
+    border-radius: 0 0 0.5rem 0.5rem;
+    transition: .2s all linear;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0rem 5rem 2rem 5rem;
+}
+
+.pricing-kit {
+   background-color: lightskyblue;
+   font-size: 1.2rem;
+   border-radius: 0 0 2rem 2rem;
+   padding: .7rem 1.5rem;
+}
+.pricing{
+ color: rgb(54, 151, 211);
+ font-size: 1.5rem ;
+ font-weight: bold;
+ padding: 1rem;
+}
+
+.pricing-item:hover .pricing-kit {
+    box-shadow: 0 0 0 50rem skyblue;
+}
+
+.pricing-item:hover{
+    transform: scale(1.01);
+    box-shadow: 0 .6rem .6rem 0rem #14cfe8ca;
+
+}
+
+.pricing-item li{
+    list-style: none;
+    padding: .3em;
+    font-size: large;
+}
+
+.pricing-item:hover .pricing {
+    color: black;
+    transition: .3s linear;
+}
+
+.order{
+    background-color: white;
+    color: rgb(54, 151, 211);
+    /* background-color: rgb(54, 151, 211); */
+    padding: 1rem 1.4rem;
+    border-radius: 30px;
+    border: 2px solid rgb(54, 151, 211)  ;
+    margin: 2rem 0rem .5rem 0rem ;
+}
+
+ .order:hover{
+    background-color: lightskyblue;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    border: 1px;
+    /* transition: .3s linear; */
+
+}
+ .pricing-item:hover .order{
+    background-color: lightskyblue;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    /* transition: .3s linear; */
+
+}
