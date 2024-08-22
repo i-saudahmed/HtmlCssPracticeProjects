@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body{
+
+body {
     background-color: rgb(123, 27, 123);
 }
-.box1{
+
+.box1 {
     display: flex;
     background-color: white;
     padding: 1rem;
@@ -17,24 +19,25 @@ body{
     border-radius: 10px;
 }
 
-li{
+li {
     list-style: none;
 }
 
-ul{
+ul {
     display: flex;
 }
 
-i{
-padding-right: 1rem;
-font-size: 20px;
+i {
+    padding-right: 1rem;
+    font-size: 20px;
 }
-h2{
+
+h2 {
     font-size: 1.74rem;
     letter-spacing: 1.2px;
 }
 
-p{
+p {
     font-size: 14px;
     color: orangered;
     padding-bottom: 0.64rem;
@@ -48,12 +51,13 @@ p{
     cursor: pointer;
 }
 
-.box1_part2 img:hover{
+.box1_part2 img:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
     transform: translateY(-5px);
 
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -62,7 +66,8 @@ p{
     height: 100vh;
     flex-wrap: wrap;
 }
-img{
+
+img {
     position: absolute;
     width: 100%;
     top: 0;
@@ -70,6 +75,7 @@ img{
     border-radius: 8px;
     transition: all 0.15s linear;
 }
-a{
+
+a {
     color: purple;
 }
