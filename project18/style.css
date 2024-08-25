@@ -10,8 +10,8 @@ body {
 }
 
 .box1 {
-    display: flex;
     background-color: white;
+    display: flex;
     padding: 1rem;
     width: 27%;
     justify-content: space-between;
