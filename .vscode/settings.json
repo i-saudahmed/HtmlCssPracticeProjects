@@ -1,0 +1,10 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "\"Fira Code\", 'Cascadia Code', Consolas, 'Courier New', monospace",
+    "workbench.activityBar.location": "default",
+    "workbench.colorTheme": "Atom Material Theme",
+    "workbench.preferredDarkColorTheme": "Atom Material Theme",
+    "workbench.preferredHighContrastColorTheme": "Atom Material Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "left"
+}
