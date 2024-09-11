@@ -19,12 +19,13 @@ body {
   border-radius: 10px;
 }
 
-li {
-  list-style: none;
-}
 
 ul {
   display: flex;
+}
+
+li {
+  list-style: none;
 }
 
 i {
