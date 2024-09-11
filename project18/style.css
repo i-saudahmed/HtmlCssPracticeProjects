@@ -47,8 +47,8 @@ p {
   position: relative;
   width: 100px;
   bottom: 1.5rem;
-  border-radius: 10px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .box1_part2 img:hover {
